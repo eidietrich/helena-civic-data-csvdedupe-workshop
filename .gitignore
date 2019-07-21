@@ -1,0 +1,11 @@
+.DS_Store
+NOTES.md
+
+Pipfile
+Pipfile.lock
+
+contributions-training.json
+contributions-abbreviated-training.json
+
+contributions-deduped.csv
+contributions-abbreviated-deduped.csv

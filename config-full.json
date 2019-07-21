@@ -1,0 +1,13 @@
+{
+    "field_names": ["First Name","Last Name","City","State","Zip"],
+    "field_def" : [
+        {"field" : "First Name", "type" : "String", "Has Missing" : false},
+        {"field" : "Last Name", "type" : "String", "Has Missing" : false},
+        {"field" : "City", "type" : "String","Has Missing" : true},
+        {"field" : "State", "type" : "String","Has Missing" : true},
+        {"field" : "Zip", "type" : "String","Has Missing" : true}
+    ],
+    "sample_size": 1500,
+    "output_file": "contributions-deduped.csv",
+    "training_file": "contributions-training.json"
+}
