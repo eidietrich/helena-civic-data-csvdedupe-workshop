@@ -50,23 +50,22 @@ _Note: This is slightly different than recommendation in csvdedupe docs_
 
 ### Download this repo
 
-If Git is installed on your computer (`brew install git` first if not)
+If Git is installed on your computer (`brew install git` first if not):
+`git clone https://github.com/eidietrich/helena-civic-data-csvdedupe-workshop`
 
-
-
-OR: Download zipfile using Github interface
+OR: Download zipfile using GitHub interface ("Clone or Download" button)
 
 ### Run csvdedupe
 
 On small (500 row) sample of data - recommended for initial attempt for sake of speed
-`sh
+```bash
 pipenv run csvdedupe mtleg-2018-individual-contributions-abbreviated-at-500.csv --config_file config-abbreviated.json
-`
+```
 
 On complete (16,000 row) data set - make take several minutes to process, depending on your computer
-`sh
+```bash
 pipenv run csvdedupe mtleg-2018-individual-contributions-full.csv --config_file config-full.json
-`
+```
 
 ## About the data used here
 
